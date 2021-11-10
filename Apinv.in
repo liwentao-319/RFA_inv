@@ -1,0 +1,12 @@
+* Reference model (layer followed by Vp Vs rho dh and Vp/Vs)
+../model/modref
+* Iter. times & isig(=1: sigma-weighted; else: same-weight)
+10,0
+* smoothing factor  & damping in sovling G (usually = 0)
+0.00,0.00
+* Model Pars. (thick(if<0, not use following parameters)) & (Tly) & (Thkw(i=1,Tly))
+10,3,2,1,0.5
+* P-RF Waveform?(if eq 1, yes; else, no) & (weighting factor)
+1,0.5
+* P-RF HVR?(if eq 1, yes; else, no) & (weighting factor)
+1,0.5

@@ -1,0 +1,16 @@
+1)  open the terminal and input "make", producing the exe. file named Apinv;
+    The file "Apinv.in" controls the inversion, so pay more attention to it.
+2)  check the file in "data" and "model"
+    in data, four file exist
+    synPw.dat: agussian parameter, ray-parameter, dt, -40 (RF(-40*dt)s), 81(RF((81-1)*dt)s), observations
+    synPr.dat: agussian parameter, ray-parameter, dt, 0 (RFHV(0s)), 41(RFHV((41-1)*dt)s), observations
+    std*: weighting factors
+    in model:
+	model is the target model (a synthetic model to generate the syn*), for real data processing, it's not used.
+        modref is the reference model for inversion. (if better to set it according Wang et al., 2019, SCES)
+3)  the output files are in "OUT"
+    
+	***
+	synthe.pw:  synPw
+	***
+	synthe.pr: same 
